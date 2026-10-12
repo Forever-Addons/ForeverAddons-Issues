@@ -1,0 +1,45 @@
+name: Bug Report
+description: Something in a Forever add-on is broken.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Addon
+      options:
+        - ForeverChatFilter
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Add-On Version
+      placeholder: e.g. 0.2.3
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps To Reproduce
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual
+    validations:
+      required: true
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error Text
+      description: From BugSack, or after typing /console scriptErrors 1. Paste as text.
+      render: text

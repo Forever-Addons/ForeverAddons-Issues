@@ -1,0 +1,23 @@
+name: Suggestion
+description: An idea to improve a Forever add-on. Ideas may not be adopted.
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Addon
+      options:
+        - ForeverChatFilter
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your Idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why It Helps
