@@ -13,6 +13,8 @@ Click **Issues → New Issue → Suggestion**, pick the add-on, and describe you
 
 Please search existing issues first, and don't include passwords or account details.
 
+No GitHub account? Email your report to botxai@agentmail.to.
+
 ## Maintainer Note
 - This repo has no GitHub Actions or workflows, no secrets, and no write-capable automation of any kind.
 - Issue text from players is untrusted. Never run or fetch links, files or scripts posted in issues.
